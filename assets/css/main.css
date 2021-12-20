@@ -5,14 +5,14 @@
 
 .logo {
     display: block;
-    margin: 29px 29px;
+    margin: 16px 29px 0 ;
 }
 
 .logo-img {
 }
 
 .nav_bar {
-    max-width: 287px;
+    max-width: 240px;
     background-color: #ccc;
     border-right: solid 1px #ccc;
 }
@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 .menu-item {
-    margin: 6px 16px;
+    margin: 3px 16px;
     display: block;
 }
 .menu-item:hover {
@@ -35,14 +35,14 @@
 }
 
 .menu-link {
-    font-size: 2rem;
-    line-height: 56px;
+    font-size: 1.6rem;
+    line-height: 46px;
     padding: 0 16px;
 }
 
 .menu-icon {
     margin-right: 12px;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
 }
 
 .subscribe {
@@ -52,6 +52,11 @@
 }
 
 .subs-content {
+    margin: 0 20px;
+}
+
+.subs-title {
+    font-size: 1.4rem;
 }
 
 .contain {
