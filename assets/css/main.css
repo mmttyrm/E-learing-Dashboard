@@ -1,0 +1,54 @@
+.wapper {
+    margin: auto;
+    width: 1440px;
+}
+
+.logo {
+    display: block;
+    margin: 29px 29px;
+}
+
+.logo-img {
+}
+
+.nav_bar {
+    max-width: 287px;
+    border-right: solid 1px #ccc;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+.menu-item {
+    margin: 6px 29px;
+    display: block;
+}
+.menu-item:hover {
+    background-color: #1F1C39;
+    border-radius: 10px;
+}
+
+.menu-item:hover .menu-link {
+    color: #fff;
+}
+
+.menu-link {
+    font-size: 2rem;
+    line-height: 56px;
+    padding: 0 16px;
+}
+
+.menu-icon {
+    margin-right: 12px;
+    font-size: 2.3rem;
+}
+
+.subscribe {
+    margin: 60px 29px 30px;
+    background-color: #fff;
+
+}
+
+.subs-content {
+}
