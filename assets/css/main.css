@@ -13,6 +13,7 @@
 
 .nav_bar {
     max-width: 287px;
+    background-color: #ccc;
     border-right: solid 1px #ccc;
 }
 
@@ -21,7 +22,7 @@
     flex-direction: column;
 }
 .menu-item {
-    margin: 6px 29px;
+    margin: 6px 16px;
     display: block;
 }
 .menu-item:hover {
@@ -45,10 +46,17 @@
 }
 
 .subscribe {
-    margin: 60px 29px 30px;
+    margin: 60px 16px 30px;
     background-color: #fff;
 
 }
 
 .subs-content {
+}
+
+.contain {
+    background-color: antiquewhite;
+}
+.profile {
+    background-color: burlywood;
 }
