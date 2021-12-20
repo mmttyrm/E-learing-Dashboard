@@ -28,3 +28,18 @@ html {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+
+.btn {
+    display: block;
+    padding: 0 16px;
+    margin: 8px auto;
+    border-radius: 10px;
+    height: 44px;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #ff6347;
+    cursor: pointer;
+}
