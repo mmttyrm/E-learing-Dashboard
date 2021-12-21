@@ -91,9 +91,6 @@
     
     /* background-color: antiquewhite; */
 }
-.profile {
-    background-color: burlywood;
-}
 
 .header {
     display: flex;
@@ -217,4 +214,58 @@
 
 .course-status-count {
     padding-left: 4px;
+}
+.chart{
+    margin-top: 18px;
+    height: 100px;
+}
+.hours-spent-title {
+    font-size: 1.8rem;
+}
+.hours-spent {
+    /* background-color: #db2100; */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 100%;
+}
+.performance-title {
+    font-size: 1.8rem;
+}
+.performance {
+    border: 1px solid #ccc;
+    /* background-color: #ccc; */
+    border-radius: 10px;
+    height: 100%;
+}
+
+.profile {
+    padding-top: 24px;
+}
+
+.header-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-title {
+    font-size: 2.3rem;
+}
+
+.profile-edit-icon {
+    margin: auto 0;
+    display:flex;
+    font-size: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 42px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    color: #747474;
+}
+
+.profile-edit-icon:hover     {
+    background-color: #ccc;
+    color: #fff;
+    cursor: pointer;
 }
