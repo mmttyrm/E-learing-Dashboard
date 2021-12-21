@@ -43,3 +43,16 @@ html {
     background-color: #ff6347;
     cursor: pointer;
 }
+
+.line{
+    position: relative;
+}
+.line::after {
+    content: "";
+    position:absolute;
+    top: 28%;
+    left:0;
+    height: 18px;
+    border-left: 2px solid #ccc;
+    border-radius: 10px;
+}
